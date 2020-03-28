@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">{{.Site.Title}}</h1>
+    <p class="lead">Here's some description stuff</p>
+    <p>There's also other things that are super nice</p>
+  </div>
+</div>
+<div class="container">
+  <div class="home">
+  {{.Content}}
+</div>
+</div>
+{{ end }}

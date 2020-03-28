@@ -1,0 +1,50 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "BOOT - The Perfect HUGO Starter Theme"
+theme = "boot"
+relativeURLs = true
+googleAnalytics = "UA-152851764-2" # Your Analytics ID here
+
+[params]
+    # Schema Information
+    type = "LocalBusiness" # Enter Your Type of business - schema.org
+    pricerange = "2" # Enter Your Price range 1 to 5
+    reviewcount = "5" # How many reviews you've got
+    reviewvalue = "4.5" # Average ratings on Yelp & Google
+    reservation = "true" # Do you accept reservations? Enter true or false
+    openinghour = "Mo-Sa 11:00-22:00" # Opening Hours
+    address = "123 Sample Street" # Enter Address Here
+    city = "Rigaud" # Enter City
+    region = "QC" # Enter State or Province Here
+    postalcode = "J0P 1P0" # Enter Postal Code
+    phone = "+1-123-456-7890" # Enter Phone Number
+    email = "info@lastationweb.ca" # Enter Your Email
+    facebookurl = "https://www.facebook.com/lastationweb"
+    instagram = "https://instagram.com/lastationweb"
+    logo = "img/logo.png"
+    image = "img/og.png" # Ideal 1200 x 630 for schema + og
+
+[menu]
+    [[menu.mainmenu]]
+        identifier = "Home"
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.mainmenu]]
+        identifier = "About"
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[menu.mainmenu]]
+        identifer = "Menu"
+        name = "Services"
+        url = "/services/"
+        weight = 3
+    
+    [[menu.mainmenu]]
+        identifier = "Contact"
+        name = "Contact Us"
+        url = "/contact/"
+        weight = 4

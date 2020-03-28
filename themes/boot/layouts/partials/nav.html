@@ -1,0 +1,26 @@
+<!-- Desktop Menu -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+    <a class="navbar-brand" href="/">Boot Theme</a>
+        <div class="desktopmenu d-flex align-items-end">
+            {{ range .Site.Menus.mainmenu }}
+            <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+    </div>
+</nav>
+<!-- Mobile Menu -->
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          {{ range .Site.Menus.mainmenu }}
+          <li><a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
