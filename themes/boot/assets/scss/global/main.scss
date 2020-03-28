@@ -1,10 +1,9 @@
-footer {
-    background-color: black;
-} 
-.home {
-    margin: 300px 0px;
+
+body {
+    margin-top: 55px;
 }
 #scroll {
+    z-index: 9999;
     position:fixed;
     right:50px;
     bottom:50px;

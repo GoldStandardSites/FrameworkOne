@@ -1,5 +1,5 @@
 <!-- Desktop Menu -->
-<nav class="navbar navbar-expand-md navbar-light">
+<nav class="navbar bg-white fixed-top navbar-expand-md navbar-light">
     <div class="container">
     <a class="navbar-brand" href="/">Boot Theme</a>
         <div class="desktopmenu d-flex align-items-end">
@@ -7,9 +7,9 @@
             <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
     </div>
-</nav>
-<!-- Mobile Menu -->
+                <!-- Mobile Menu -->
 <div class="menu-wrap">
+  <label for="checkbox">Mobile Menu</label>
   <input type="checkbox" class="toggler">
   <div class="hamburger"><div></div></div>
   <div class="menu">
@@ -24,3 +24,4 @@
     </div>
   </div>
 </div>
+</nav>
