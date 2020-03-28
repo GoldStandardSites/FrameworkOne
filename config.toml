@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "en-ca"
 title = "BOOT - The Perfect HUGO Starter Theme"
 theme = "boot"
 relativeURLs = true
@@ -7,6 +7,7 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
 [params]
     # Schema Information
+    businessname = "BOOTTHEME"
     type = "LocalBusiness" # Enter Your Type of business - schema.org
     pricerange = "2" # Enter Your Price range 1 to 5
     reviewcount = "5" # How many reviews you've got

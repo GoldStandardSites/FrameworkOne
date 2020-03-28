@@ -1,3 +1,4 @@
+/* Navigation Menu */
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
@@ -11,3 +12,8 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+/* Homepage Header Fullheight */
+$(document).ready(function(){
+    $('.header').height($(window).height());
+    
+   })

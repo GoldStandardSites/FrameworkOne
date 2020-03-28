@@ -1,4 +1,33 @@
+$brand-color: red;
 
 body {
     margin-top: 55px;
+}
+.copyright {
+    color: white;
+}
+.copyright:hover {
+    color: $brand-color;
+}
+/* Homepage */
+.header {
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(244, 244, 244, 0.79);
+}
+.hero-content {
+    position: absolute;
+    top: 30%;   
+}
+.welcome-to {
+    text-transform: uppercase;
 }

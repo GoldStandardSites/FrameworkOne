@@ -1,14 +1,15 @@
 {{ define "main" }}
-<div class="jumbotron">
-  <div class="container">
-    <h1 class="display-4">{{.Site.Title}}</h1>
-    <p class="lead">Here's some description stuff</p>
-    <p>There's also other things that are super nice</p>
+<header class="header">
+  <div class="overlay">
+    <div class="container">
+      <div class="hero-content">
+        <div class="welcome-to font-weight-bold">Welcome to {{ $.Site.Params.businessname }}</div>
+        <h1 class="display-3">{{.Params.h1}}</h1>
+        <p class="py-1 lead">{{.Params.lead}}</p>
+        <button class="btn btn-outline-secondary btn-lg">See More</button>
+      </div>
+    </div>
   </div>
-</div>
-<div class="container">
-  <div class="home">
-  {{.Content}}
-</div>
-</div>
+  
+</header>
 {{ end }}
