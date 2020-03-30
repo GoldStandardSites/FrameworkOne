@@ -1,3 +1,13 @@
+/* Preloader */
+$(document).ready(function() {
+    //Preloader
+    preloaderFadeOutTime = 200;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    });
 /* Navigation Menu */
 $(document).ready(function(){ 
     $(window).scroll(function(){ 

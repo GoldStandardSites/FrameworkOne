@@ -7,6 +7,7 @@
     {{ template "_internal/google_analytics.html" . }}
     </head>
     <body>
+        {{- partial "preloader.html" . -}}
         {{- partial "nav.html" . -}}
         {{- partial "header.html" . -}}
         <div id="content">
@@ -16,3 +17,5 @@
         {{- partial "footer.html" . -}}
     </body>
 </html>
+
+
