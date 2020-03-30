@@ -1,4 +1,4 @@
-$brand-color: red;
+$brand-color: orangered;
 
 body {
     margin-top: 55px;
@@ -9,7 +9,10 @@ body {
 .copyright:hover {
     color: $brand-color;
 }
-/* Homepage */
+.nav-link:hover {
+    color: $brand-color;
+}
+/* Homepage Header Section */
 .header {
     background-image: url(../img/hero.jpg);
     background-position: center;
@@ -26,8 +29,31 @@ body {
 }
 .hero-content {
     position: absolute;
-    top: 30%;   
+    top: 30%;
+    
+    & .welcome-to {
+        text-transform: uppercase;
+    }
+
+    & h1 {
+        color: $brand-color;
+    }
+
+    & button {
+        background-color: $brand-color;
+        color: #fff !important;
+        border-color: transparent;
+    }
 }
-.welcome-to {
-    text-transform: uppercase;
+/* Homepage About Section */
+.home__about {
+    h2{
+        color: $brand-color;
+    }
+    .about-img {
+        border-radius: 100%;
+    }
+    &--desc {
+        padding-left: 2rem;
+    }
 }

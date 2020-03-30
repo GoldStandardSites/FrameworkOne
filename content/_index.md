@@ -5,11 +5,14 @@ title: "Home"
 description: "The Homepage Description"
 keywords: "homepage keywords"
 # Hero Section
-h1: "Boot Theme v1.0 Is Live!"
+h1: "Boot Framework"
 lead: "The Gold Standard of Static Site for Small Business Owners"
+# About Section
+h2: "Think Positive!"
+about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Feugiat in ante metus dictum. Condimentum lacinia quis vel eros donec ac odio. Ut etiam sit amet nisl purus in mollis nunc. Cursus in hac habitasse platea. Amet consectetur adipiscing elit ut aliquam purus."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Feugiat in ante metus dictum. Condimentum lacinia quis vel eros donec ac odio. Ut etiam sit amet nisl purus in mollis nunc. Cursus in hac habitasse platea. Amet consectetur adipiscing elit ut aliquam purus. Ullamcorper malesuada proin libero nunc. Faucibus pulvinar elementum integer enim. Eget nulla facilisi etiam dignissim. Purus sit amet volutpat consequat mauris. Mi bibendum neque egestas congue quisque egestas. Eget dolor morbi non arcu risus quis varius quam quisque. Quam viverra orci sagittis eu volutpat odio facilisis. Dolor morbi non arcu risus quis. Iaculis nunc sed augue lacus viverra vitae. Cras sed felis eget velit aliquet sagittis id consectetur. Laoreet id donec ultrices tincidunt.
+Eget dolor morbi non arcu risus quis varius quam quisque. Quam viverra orci sagittis eu volutpat odio facilisis. Dolor morbi non arcu risus quis. Iaculis nunc sed augue lacus viverra vitae. Cras sed felis eget velit aliquet sagittis id consectetur. Laoreet id donec ultrices tincidunt.
 
 Lacus luctus accumsan tortor posuere ac ut consequat semper. Nisi vitae suscipit tellus mauris a diam. Leo duis ut diam quam nulla porttitor. Viverra adipiscing at in tellus. Penatibus et magnis dis parturient montes. Venenatis a condimentum vitae sapien pellentesque habitant. Amet nulla facilisi morbi tempus iaculis. Sed faucibus turpis in eu mi bibendum neque egestas congue. Sit amet dictum sit amet justo donec. Tincidunt ornare massa eget egestas purus viverra accumsan. Pretium quam vulputate dignissim suspendisse in est ante in. Eget velit aliquet sagittis id consectetur purus ut faucibus. Vel quam elementum pulvinar etiam non quam lacus. Sodales ut etiam sit amet nisl purus in. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Turpis cursus in hac habitasse platea dictumst quisque. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo.
 

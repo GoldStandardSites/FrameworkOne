@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "The About page Description"
-layout: about
+layout: a-propos
 keywords: "about, keywords"
 ---
 

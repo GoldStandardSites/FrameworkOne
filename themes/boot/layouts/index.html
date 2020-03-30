@@ -10,6 +10,23 @@
       </div>
     </div>
   </div>
-  
 </header>
+<section class="container py-8 home__about">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-12">
+        <img src="img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img mb-2">
+        <p class="text-center">Description Text</p>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-12 home__about--desc">
+      <h2>{{.Params.h2}}</h2>
+      <p class="py-2 lead">{{.Params.about}}</p>
+    </div>
+  </div>
+</section>
+<section class="home__services">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 cols-sm-12">
+    </div>
+  </div>
+</section>
 {{ end }}

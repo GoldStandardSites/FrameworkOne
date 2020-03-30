@@ -1,13 +1,13 @@
 baseURL = "/"
 languageCode = "en-ca"
-title = "BOOT - The Perfect HUGO Starter Theme"
+title = "BOOT - The Small Business Website Framework"
 theme = "boot"
 relativeURLs = true
 googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
 [params]
     # Schema Information
-    businessname = "BOOTTHEME"
+    businessname = "BOOT"
     type = "LocalBusiness" # Enter Your Type of business - schema.org
     pricerange = "2" # Enter Your Price range 1 to 5
     reviewcount = "5" # How many reviews you've got
@@ -19,33 +19,33 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
     region = "QC" # Enter State or Province Here
     postalcode = "J0P 1P0" # Enter Postal Code
     phone = "+1-123-456-7890" # Enter Phone Number
-    email = "info@lastationweb.ca" # Enter Your Email
-    facebookurl = "https://www.facebook.com/lastationweb"
-    instagram = "https://instagram.com/lastationweb"
+    email = "info@goldstandardsites.ca" # Enter Your Email
+    facebookurl = "https://www.facebook.com/"
+    instagram = "https://instagram.com/"
     logo = "img/logo.png"
     image = "img/og.png" # Ideal 1200 x 630 for schema + og
 
 [menu]
     [[menu.mainmenu]]
-        identifier = "Home"
-        name = "Home"
+        identifier = "Accueil"
+        name = "Accueil"
         url = "/"
         weight = 1
 
     [[menu.mainmenu]]
-        identifier = "About"
-        name = "About"
-        url = "/about/"
+        identifier = "A Propos"
+        name = "A Propos"
+        url = "/a-propos/"
         weight = 2
 
     [[menu.mainmenu]]
-        identifer = "Menu"
+        identifer = "Services"
         name = "Services"
         url = "/services/"
         weight = 3
     
     [[menu.mainmenu]]
         identifier = "Contact"
-        name = "Contact Us"
+        name = "Contact"
         url = "/contact/"
         weight = 4
