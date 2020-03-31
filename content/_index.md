@@ -7,9 +7,18 @@ keywords: "homepage keywords"
 # Hero Section
 h1: "Boot Framework"
 lead: "The Gold Standard of Static Site for Small Business Owners"
-# About Section
-h2: "Think Positive!"
-about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Feugiat in ante metus dictum. Condimentum lacinia quis vel eros donec ac odio. Ut etiam sit amet nisl purus in mollis nunc. Cursus in hac habitasse platea. Amet consectetur adipiscing elit ut aliquam purus."
+# Service Section
+h2: "Where are here to serve you"
+subhead2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."
+service1: "Service 1"
+service1__img: "img/og.png"
+service1__desc: "With supporting text below as a natural lead-in to additional content."
+service2: "Service 2"
+service2__img: "img/og.png"
+service2__desc: "With supporting text below as a natural lead-in to additional content."
+service3: "Service 3"
+service3__img: "img/og.png"
+service3__desc: "With supporting text below as a natural lead-in to additional content."
 ---
 
 Eget dolor morbi non arcu risus quis varius quam quisque. Quam viverra orci sagittis eu volutpat odio facilisis. Dolor morbi non arcu risus quis. Iaculis nunc sed augue lacus viverra vitae. Cras sed felis eget velit aliquet sagittis id consectetur. Laoreet id donec ultrices tincidunt.

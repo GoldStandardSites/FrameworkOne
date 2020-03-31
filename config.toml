@@ -6,6 +6,7 @@ relativeURLs = true
 googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
 [params]
+    color = "orangered"
     # Schema Information
     businessname = "BOOT"
     type = "LocalBusiness" # Enter Your Type of business - schema.org

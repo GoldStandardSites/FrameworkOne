@@ -1,9 +1,21 @@
 {{ define "main" }}
-<div class="jumbotron">
+<div class="jumbotron pt-12">
   <div class="container">
     <h1 class="display-4">{{.Title}}</h1>
     <p class="lead">Here's some description stuff</p>
     <p>There's also other things that are super nice</p>
   </div>
 </div>
+<section class="container my-5 home__about">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-12">
+        <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img mb-2">
+        <p class="text-center">Description Text</p>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-12 home__about--desc">
+      <h2>{{.Params.h2}}</h2>
+      <p class="py-2 lead">{{.Params.about}}</p>
+    </div>
+  </div>
+</section>
 {{ end }}

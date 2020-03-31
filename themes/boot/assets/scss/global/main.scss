@@ -1,8 +1,5 @@
 $brand-color: orangered;
 
-body {
-    margin-top: 55px;
-}
 .copyright {
     color: white;
 }
@@ -14,7 +11,7 @@ body {
 }
 /* Homepage Header Section */
 .header {
-    background-image: url(../img/hero.jpg);
+    background-image: url(/img/hero1.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -25,14 +22,19 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(244, 244, 244, 0.79);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .hero-content {
     position: absolute;
-    top: 30%;
+    top: 40%;
+
+    p {
+        color: white;
+    }
     
     & .welcome-to {
         text-transform: uppercase;
+        color: white;
     }
 
     & h1 {
@@ -40,9 +42,8 @@ body {
     }
 
     & button {
-        background-color: $brand-color;
-        color: #fff !important;
-        border-color: transparent;
+        border-width: 2px;
+        font-weight: bold;
     }
 }
 /* Homepage About Section */
@@ -55,5 +56,14 @@ body {
     }
     &--desc {
         padding-left: 2rem;
+    }
+    .icon {
+        color: $brand-color !important;
+    }
+}
+/* Homepage Services Section */
+.home__services {
+    &--textbox {
+        padding: 10px 20px 30px 20px;
     }
 }

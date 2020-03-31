@@ -6,27 +6,41 @@
         <div class="welcome-to font-weight-bold">Welcome to {{ $.Site.Params.businessname }}</div>
         <h1 class="display-3">{{.Params.h1}}</h1>
         <p class="py-1 lead">{{.Params.lead}}</p>
-        <button class="btn btn-outline-secondary btn-lg">See More</button>
+        <button class="btn btn-outline-primary btn-lg">See More</button>
       </div>
     </div>
   </div>
 </header>
-<section class="container py-8 home__about">
+<section class="home__services container my-10">
+  <h2 class="home__services--heading display-4 text-center" data-aos="fade-up" data-aos-duration="800">{{.Params.h2}}</h2>
+  <div class="lead home__services--subheading text-center pb-5" data-aos="fade-up" data-aos-duration="800">{{.Params.subhead2}}</div>
   <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-12">
-        <img src="img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img mb-2">
-        <p class="text-center">Description Text</p>
+    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+      <div class="home__services--box shadow px-0 rounded" data-aos="fade-right" data-aos-duration="800">
+        <img class="img-fluid" src="{{.Params.service1__img}}" alt="Card image cap">
+        <div class="home__services--textbox">
+          <h3 class="services__heading py-1">{{.Params.service3}}</h3>
+          <p class="card-text services__descriptions p-1">{{.Params.service3__desc }}</p>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-9 col-md-9 col-sm-12 home__about--desc">
-      <h2>{{.Params.h2}}</h2>
-      <p class="py-2 lead">{{.Params.about}}</p>
+    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+      <div class="home__services--box shadow px-0 rounded" data-aos="fade-up" data-aos-duration="800">
+        <img class="img-fluid" src="{{.Params.service1__img}}" alt="Card image cap">
+        <div class="home__services--textbox">
+          <h3 class="services__heading py-1">{{.Params.service3}}</h3>
+          <p class="card-text services__descriptions p-1">{{.Params.service3__desc }}</p>
+          </div>
+      </div>
     </div>
-  </div>
-</section>
-<section class="home__services">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 cols-sm-12">
+    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+      <div class="home__services--box shadow px-0 rounded" data-aos="fade-left" data-aos-duration="800">
+        <img class="img-fluid" src="{{.Params.service1__img}}" alt="Card image cap">
+        <div class="home__services--textbox">
+          <h3 class="services__heading py-1">{{.Params.service3}}</h3>
+          <p class="card-text services__descriptions p-1">{{.Params.service3__desc }}</p>
+        </div>
+      </div>
     </div>
-  </div>
 </section>
 {{ end }}
