@@ -7937,8 +7937,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Homepage Benefit Section */
 .home__benefits-2 {
   margin-top: -390px;
-  padding-top: 450px;
-  height: 1000px; }
+  padding-top: 450px; }
 
 @media (min-width: 768px) {
   .menu-wrap {
