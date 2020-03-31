@@ -11,7 +11,7 @@ $brand-color: orangered;
 }
 /* Homepage Header Section */
 .header {
-    background-image: url(/img/hero1.jpg);
+    background-image: url(/img/hero.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ $brand-color: orangered;
     width: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-content {
     position: absolute;
@@ -66,4 +66,10 @@ $brand-color: orangered;
     &--textbox {
         padding: 10px 20px 30px 20px;
     }
+}
+/* Homepage Benefit Section */
+.home__benefits-2 {
+    margin-top: -390px;
+    padding-top: 450px;
+    height: 1000px;
 }

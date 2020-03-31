@@ -6,12 +6,13 @@
         <div class="welcome-to font-weight-bold">Welcome to {{ $.Site.Params.businessname }}</div>
         <h1 class="display-3">{{.Params.h1}}</h1>
         <p class="py-1 lead">{{.Params.lead}}</p>
-        <button class="btn btn-outline-primary btn-lg">See More</button>
+        <button class="btn btn-outline-light btn-lg">See More</button>
       </div>
     </div>
   </div>
 </header>
-<section class="home__services container my-10">
+<section class="home__services my-10">
+  <div class="container">
   <h2 class="home__services--heading display-4 text-center" data-aos="fade-up" data-aos-duration="800">{{.Params.h2}}</h2>
   <div class="lead home__services--subheading text-center pb-5" data-aos="fade-up" data-aos-duration="800">{{.Params.subhead2}}</div>
   <div class="row">
@@ -42,5 +43,86 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+<section class="home__benefits pt-10 bg-light">
+  <div class="container">
+  <h2 class="home__services--heading display-4 text-center" data-aos="fade-up" data-aos-duration="800">{{.Params.h2}}</h2>
+  <div class="lead home__services--subheading text-center pb-5" data-aos="fade-up" data-aos-duration="800">{{.Params.subhead2}}</div>
+  <img src="{{ $.Site.BaseURL }}img/hero.jpg" alt="" class="benefits__img img-fluid shadow" data-aos="fade-up" data-aos-duration="800">
+</div>
+<section class="home__benefits-2 bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 cols-sm-12">
+        <div class="icon__box d-flex flex-row" data-aos="fade-right" data-aos-duration="800">
+        <div class="icon">
+          <span style="font-size: 45px"><i class="fal fa-thumbs-up"></i></span>
+        </div>
+          <div class="icon__box--text pl-3">
+          <h3>Benefit #1</h3>
+            <p>This is test text that I'm looking to see how it works. What about that?</p>
+          </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 cols-sm-12">
+    <div class="icon__box d-flex flex-row" data-aos="fade-up" data-aos-duration="800">
+    <div class="icon">
+      <span style="font-size: 45px"><i class="fal fa-thumbs-up"></i></span>
+    </div>
+      <div class="icon__box--text pl-3">
+      <h3>Benefit #2</h3>
+        <p>This is test text that I'm looking to see how it works. What about that?</p>
+      </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 cols-sm-12">
+  <div class="icon__box d-flex flex-row" data-aos="fade-left" data-aos-duration="800">
+  <div class="icon">
+    <span style="font-size: 45px"><i class="fal fa-thumbs-up"></i></span>
+  </div>
+    <div class="icon__box--text pl-3">
+    <h3>Benefit #3</h3>
+      <p>This is test text that I'm looking to see how it works. What about that?</p>
+    </div>
+</div>
+</div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-4 col-md-4 cols-sm-12">
+        <div class="icon__box d-flex flex-row" data-aos="fade-right" data-aos-duration="800">
+        <div class="icon">
+          <span style="font-size: 45px"><i class="fal fa-thumbs-up"></i></span>
+        </div>
+          <div class="icon__box--text pl-3">
+          <h3>Benefit #4</h3>
+            <p>This is test text that I'm looking to see how it works. What about that?</p>
+          </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 cols-sm-12">
+    <div class="icon__box d-flex flex-row" data-aos="fade-up" data-aos-duration="800">
+    <div class="icon">
+      <span style="font-size: 45px"><i class="fal fa-thumbs-up"></i></span>
+    </div>
+      <div class="icon__box--text pl-3">
+      <h3>Benefit #5</h3>
+        <p>This is test text that I'm looking to see how it works. What about that?</p>
+      </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 cols-sm-12">
+  <div class="icon__box d-flex flex-row" data-aos="fade-left" data-aos-duration="800">
+  <div class="icon">
+    <span style="font-size: 45px"><i class="fal fa-thumbs-up"></i></span>
+  </div>
+    <div class="icon__box--text pl-3">
+    <h3>Benefit #6</h3>
+      <p>This is test text that I'm looking to see how it works. What about that?</p>
+    </div>
+</div>
+</div>
+    </div>
+</div>
 </section>
 {{ end }}
