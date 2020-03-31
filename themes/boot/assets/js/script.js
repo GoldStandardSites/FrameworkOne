@@ -1,3 +1,4 @@
+AOS.init();
 /* Preloader */
 $(document).ready(function() {
     //Preloader
