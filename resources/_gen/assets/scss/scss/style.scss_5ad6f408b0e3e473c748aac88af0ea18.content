@@ -10484,7 +10484,7 @@ a {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 0;
   z-index: 1;
   width: 55px;
