@@ -1,0 +1,107 @@
+/* Responsive Header Section */
+@media only screen and (max-width: 768px)  {
+    .hero-content {
+        h1 {
+            font-size: 3.0rem;
+        }
+    }
+    .home__services {
+        &--heading {
+            font-size: 2.0rem;
+            padding-bottom: 1rem;
+        }
+        &--subheading {
+            padding-bottom: 1rem !important;
+        }
+    }
+    .home__benefits {
+        &--heading {
+            font-size: 2.0rem;
+            padding-bottom: 1rem;
+        }
+        &--subheading {
+            padding-bottom: 3.5rem !important;
+        }
+    }
+    .home__benefits-2 {
+        .row-1 {
+            margin-bottom: 0px !important;
+        }
+        .row-2 {
+            margin-top: 0px !important;
+        }
+    }
+    .home__contact {
+        &--info {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+    }
+}
+/* Homepage Header Section */
+.header {
+    background-image: url(/img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hero-content {
+    position: absolute;
+    top: 40%;
+
+    p {
+        color: white;
+    }
+    
+    & .welcome-to {
+        text-transform: uppercase;
+        color: white;
+    }
+
+    & h1 {
+        color: $brand-color;
+    }
+
+    & button {
+        border-width: 2px;
+        font-weight: bold;
+    }
+}
+/* Homepage About Section */
+.home__about {
+    h2{
+        color: $brand-color;
+    }
+    .about-img {
+        border-radius: 100%;
+    }
+    &--desc {
+        padding-left: 2rem;
+    }
+    .icon {
+        color: $brand-color !important;
+    }
+}
+/* Homepage Services Section */
+.home__services {
+    &--textbox {
+        padding: 10px 20px 30px 20px;
+    }
+}
+/* Homepage Benefit Section */
+.home__benefits-2 {
+    margin-top: -390px;
+    padding-top: 450px;
+}
+.about-img {
+    max-width: 200px !important;
+    border-radius: 100%;
+}

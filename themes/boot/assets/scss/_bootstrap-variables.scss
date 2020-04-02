@@ -1,3 +1,6 @@
+// Color system
+$brand-color:  orangered !default;
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -17,7 +20,7 @@ $grid-gutter-width: 20px;
 
 $white: #ffffff;
 $black: #000000;
-$primary: #333;
+$primary: $brand-color;
 $secondary: #43454d;
 
 // Links

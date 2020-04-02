@@ -1,9 +1,9 @@
-<nav class="navbar bg-white fixed-top navbar-expand-md navbar-light">
+<nav class="navbar bg-white fixed-top navbar-expand-md navbar-light shadow">
     <div class="container">
-    <a class="navbar-brand" href="/">Boot Theme</a>
+    <a class="navbar-brand" href="/"><img src="{{ $.Site.BaseURL }}img/logo.png" alt="{{ $.Site.Title }}" class="nav-logo"></a>
         <div class="desktopmenu d-flex align-items-end">
             {{ range .Site.Menus.mainmenu }}
-            <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-item nav-link uppercase" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
     </div>
 <!-- Mobile Menu -->
