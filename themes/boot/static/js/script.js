@@ -1,4 +1,3 @@
-AOS.init();
 /* Preloader */
 $(document).ready(function() {
     //Preloader
@@ -9,6 +8,8 @@ $(document).ready(function() {
     }
     hidePreloader();
     });
+/* Animate on Scroll */
+AOS.init();
 /* Navigation Menu */
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
@@ -25,6 +26,5 @@ $(document).ready(function(){
 });
 /* Homepage Header Fullheight */
 $(document).ready(function(){
-    $('.header').height($(window).height());
-    
-   })
+    $('.header').height($(window).height());})
+
