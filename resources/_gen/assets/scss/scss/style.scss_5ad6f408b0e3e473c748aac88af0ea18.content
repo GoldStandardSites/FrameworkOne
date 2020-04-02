@@ -10701,8 +10701,10 @@ a {
   color: orangered !important; }
 
 /* Homepage Services Section */
-.home__services--textbox {
-  padding: 10px 20px 30px 20px; }
+.home__services {
+  background-color: white; }
+  .home__services--textbox {
+    padding: 10px 20px 30px 20px; }
 
 /* Homepage Benefit Section */
 .home__benefits-2 {

@@ -161,7 +161,8 @@
       </div>
     </div>
 </section>
-<section class="home__contact container py-8" data-aos="fade-up" data-aos-duration="800">
+<section class="home__contact container py-8">
+  <div class="footer-reveal">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12 home__contact--info">
       <img src="{{ $.Site.BaseURL }}img/logo.png" alt="" class="logo">
@@ -172,8 +173,8 @@
         {{ $.Site.Params.postalcode }}<br>
         {{ $.Site.Params.country }}<br>
         </address>
-        <i class="fal fa-phone-square-alt"></i> <a href="tel:{{ $.Site.Params.phone }}">{{ $.Site.Params.phone }}</a><br>
-        <i class="fal fa-envelope"></i> <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a><br>
+        <i class="fal fa-phone-square-alt brand-color"></i> <a href="tel:{{ $.Site.Params.phone }}">{{ $.Site.Params.phone }}</a><br>
+        <i class="fal fa-envelope brand-color"></i> <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a><br>
 
     </div>
     <div class="col-lg-8 col-md-8 col-sm-12">
@@ -226,7 +227,7 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <input type="submit" class="btn btn-success btn-send" value="Send message">
+                <input type="submit" class="btn btn-primary btn-send" value="Send message">
               </div>
             </div>
            
@@ -236,5 +237,6 @@
     </div>
   </div>
     </div>
+  </div>
 </section>
 {{ end }}
