@@ -1,8 +1,22 @@
 .copyright {
-    color: white;
+    color: $brand-color;
 }
 .copyright:hover {
-    color: $brand-color;
+    color: white;
+}
+.bg-black {
+    background-color: #222;
+}
+.credit {
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    text-align: left;
+}
+.hours {
+    list-style: none;
+    padding-left: 0px;
 }
 .nav-link:hover {
     color: $brand-color;
@@ -27,6 +41,21 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.subheader {
+    background-image: url(/img/hero.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+.bg-footer {
+    background-color: #333;
+}
+.sub-content {
+    position: absolute;
+    top: 48%;
+    color: white;
+}
 .divider {
     margin: 65px auto;
     height: 1px;
@@ -36,4 +65,15 @@
 }
 h1,h2,h3,h4 {
     font-weight: 700 !important;
+}
+@media only screen and (max-width: 768px)  {
+    .credit {
+        text-align: center;
+    }
+    .footer__links {
+        text-align: center;
+    }
+    .footer__box {
+        padding: 0 20px 40px 20px;
+    }
 }

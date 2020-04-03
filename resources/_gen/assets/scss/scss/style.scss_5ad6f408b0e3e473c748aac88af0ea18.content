@@ -10434,10 +10434,24 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important; }
 
 .copyright {
-  color: white; }
+  color: #3288db; }
 
 .copyright:hover {
-  color: #3288db; }
+  color: white; }
+
+.bg-black {
+  background-color: #222; }
+
+.credit {
+  padding-top: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid white;
+  text-align: left; }
+
+.hours {
+  list-style: none;
+  padding-left: 0px; }
 
 .nav-link:hover {
   color: #3288db; }
@@ -10462,6 +10476,21 @@ a.text-dark:hover, a.text-dark:focus {
   top: 0;
   background-color: rgba(0, 0, 0, 0.5); }
 
+.subheader {
+  background-image: url(/img/hero.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px; }
+
+.bg-footer {
+  background-color: #333; }
+
+.sub-content {
+  position: absolute;
+  top: 48%;
+  color: white; }
+
 .divider {
   margin: 65px auto;
   height: 1px;
@@ -10470,6 +10499,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1, h2, h3, h4 {
   font-weight: 700 !important; }
+
+@media only screen and (max-width: 768px) {
+  .credit {
+    text-align: center; }
+  .footer__links {
+    text-align: center; }
+  .footer__box {
+    padding: 0 20px 40px 20px; } }
 
 @media (min-width: 768px) {
   .menu-wrap {
@@ -10501,7 +10538,7 @@ a {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0px;
+  top: 10px;
   right: 0;
   z-index: 1;
   width: 55px;
@@ -10722,18 +10759,6 @@ a {
 .about-img {
   max-width: 200px !important;
   border-radius: 100%; }
-
-.subheader {
-  background-image: url(/img/hero.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 350px; }
-
-.sub-content {
-  position: absolute;
-  top: 48%;
-  color: #3288db; }
 
 .contact__form--info {
   text-align: center;

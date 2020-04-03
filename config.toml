@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-ca"
-title = "BOOT - The Small Business Website Framework"
+title = "Framework One - The Small Business Website Framework"
 theme = "boot"
 relativeURLs = true
 googleAnalytics = "UA-152851764-2" # Your Analytics ID here

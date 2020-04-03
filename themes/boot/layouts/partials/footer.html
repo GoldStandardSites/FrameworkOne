@@ -1,9 +1,50 @@
    
-<footer class="footer p-2 bg-dark text-white">
+<footer class="bg-footer">
+    <section class="container-fluid bg-black py-8">
+          <h3 class="display-5 text-white text-center">Your Business Exist to Serve The World. Let Them Know About It.</h3>
+        </div>
+      </section>
+    <section class="footer__links container text-white pt-8">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
+                <div class="footer__box">
+                <h3 class="uppercase pb-1">{{ $.Site.Params.businessname }}</h3>
+                <p>onvallis posuere morbi leo urna molestie at elementum. Turpis cursus in hac habitasse platea dictumst quisque. Nulla pellentesque dignissim enim sit amet venenatis.</p>
+                <span style="font-size: 28px;"><i class="fab fa-facebook-square brand-color pr-2"></i><i class="fab fa-instagram brand-color"></i></span>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
+                <div class="footer__box">
+                <h3 class="uppercase pb-1">Contact</h3>
+                <address>
+                    {{ $.Site.Params.address }}<br>
+                    {{ $.Site.Params.city }}, {{ $.Site.Params.region }}<br>
+                    {{ $.Site.Params.postalcode }},{{ $.Site.Params.country }}<br>
+                    </address>
+                    <strong>Phone:</strong>
+                    <a href="tel:{{ $.Site.Params.phone }}" class="brand-color">{{ $.Site.Params.phone }}</a><br>
+                    <strong>Email:</strong>
+                    <a href="mailto:{{ $.Site.Params.email }}" class="brand-color">{{ $.Site.Params.email }}</a><br>
+            </div>
+        </div>
+            <div class="col-lg-4 col-md-4 col-sm 12 pb-1">
+                <div class="footer__box">
+                <h3 class="uppercase pb-1">Business Hours</h3>
+                <ul class="hours">
+                <li>Mo - We <strong>11:00-20:00</strong></li>
+                <br>
+                <li>Th - Sat <strong>10:00-22:00</strong></li>
+                <br>
+                <li>Su - <strong>CLOSED</strong></li>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
     <div class="container">
-        <div class="d-flex justify-content-center flex-wrap">
-            <div>Handcrafted with ❤️ by <a class="copyright" href="#">Gold Standard Sites</a>&nbsp</div>
-            <div>Copyright © {{ dateFormat "2006" now }}</div>
+        <div class="text-white credit">
+            <div><span>Handcrafted with ❤️ by </span><span><a class="copyright" href="#"><u>Gold Standard Sites</u></a>&nbsp</span> <span>- Copyright © {{ dateFormat "2006" now }}</span></div>
         </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
