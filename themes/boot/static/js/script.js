@@ -1,7 +1,7 @@
-/* Homepage Header Fullheight */
+/* Homepage Header Fullheight 
 $(document).ready(function(){
     $('.header').height($(window).height());})
-
+*/
 /* Preloader 
 $(document).ready(function() {
     //Preloader
