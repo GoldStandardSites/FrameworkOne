@@ -10,6 +10,8 @@ lead: "The Gold Standard of Static Site for Small Business Owners"
 # Service Section
 h2: "Where are here to serve you"
 subhead2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."
+h3: "Powerful Heading"
+subhead3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar etiam non quam lacus."
 service1: "Service 1"
 service1__img: "img/og.png"
 service1__desc: "With supporting text below as a natural lead-in to additional content."

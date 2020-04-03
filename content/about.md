@@ -6,11 +6,11 @@ keywords: "about, keywords"
 # About Section
 h2: "Think Positive!"
 Owner: "Anita Bellona" 
-skill1: "Stellar Customer Service"
+skill1: "Service"
 skill1desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-skill2: "12 Years of Experience"
+skill2: "Experience"
 skill2desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-skill3: "Certified by Google"
+skill3: "Certified"
 skill3desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ---
 
