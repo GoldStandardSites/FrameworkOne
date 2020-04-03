@@ -31,12 +31,6 @@
             margin-top: 0px !important;
         }
     }
-    .home__contact {
-        &--info {
-            text-align: center;
-            margin-bottom: 3.5rem;
-        }
-    }
 }
 /* Homepage Header Section */
 .header {
@@ -45,14 +39,7 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.overlay {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-}
+
 .hero-content {
     position: absolute;
     top: 40%;

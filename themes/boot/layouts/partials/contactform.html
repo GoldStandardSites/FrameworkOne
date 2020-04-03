@@ -1,0 +1,76 @@
+<section class="contact__form container py-8">
+    <div class="row" data-aos="fade-up" data-aos-duration="800">
+      <div class="col-lg-4 col-md-4 col-sm-12 contact__form--info text-left">
+        <img src="{{ $.Site.BaseURL }}img/logo.png" alt="{{ $.Site.Title }}" class="logo">
+        <h2 class="uppercase">{{ $.Site.Params.businessname }}</h2>
+        <address>
+          {{ $.Site.Params.address }}<br>
+          {{ $.Site.Params.city }}, {{ $.Site.Params.region }}<br>
+          {{ $.Site.Params.postalcode }}<br>
+          {{ $.Site.Params.country }}<br>
+          </address>
+          <i class="fal fa-phone-square-alt brand-color"></i> <a href="tel:{{ $.Site.Params.phone }}">{{ $.Site.Params.phone }}</a><br>
+          <i class="fal fa-envelope brand-color"></i> <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a><br>
+  
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="shadow p-3">
+          <h2 class="uppercase">Contact Us</h2>
+          <form id="contact-form" method="POST" action="https://formspree.io/xoqnveqw" role="form">
+  
+            <div class="messages"></div>
+    
+            <div class="controls">
+    
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_name">First name *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_lastname">Last name *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                </div>
+              </div>
+             
+            </div>
+    
+            </form>
+      </div>
+    </div>
+      </div>
+  </section>  

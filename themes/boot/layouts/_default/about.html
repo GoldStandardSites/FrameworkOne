@@ -1,0 +1,54 @@
+{{ define "main" }}
+<header class="subheader">
+  <div class="overlay">
+    <div class="container">
+      <div class="sub-content">
+        <h1 class="display-4 uppercase">{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="container mt-8 mb-3 about__section">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail mb-2" data-aos="fade-right" data-aos-duration="800">
+        <p class="text-center lead">{{.Params.owner}}</p>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 home__about--desc">
+      <h2>{{.Params.h2}}</h2>
+      <p class="lead">{{.Content}}</p>
+    </div>
+  </div>
+</section>
+<section class="about__skills mt-0">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+      <div class="home__services--box shadow p-1 rounded" data-aos="fade-up" data-aos-duration="800">
+        <div class="home__services--textbox">
+          <h3 class="display-5 py-1">{{.Params.skill1}}</h3>
+          <p class="card-text services__descriptions p-1">{{.Params.skill1desc }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+      <div class="home__services--box shadow p-1 rounded" data-aos="fade-up" data-aos-duration="800"> 
+        <div class="home__services--textbox">
+          <h3 class="display-5 py-1">{{.Params.skill2}}</h3>
+          <p class="card-text services__descriptions p-1">{{.Params.skill2desc }}</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+      <div class="home__services--box shadow p-1 rounded" data-aos="fade-up" data-aos-duration="800">
+        <div class="home__services--textbox">
+          <h3 class="display-5 py-1">{{.Params.skill3}}</h3>
+          <p class="card-text services__descriptions p-1">{{.Params.skill3desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{{- partial "contactform.html" . -}}
+{{ end }}

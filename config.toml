@@ -29,15 +29,15 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
 [menu]
     [[menu.mainmenu]]
-        identifier = "Accueil"
-        name = "Accueil"
+        identifier = "Home"
+        name = "Home"
         url = "/"
         weight = 1
 
     [[menu.mainmenu]]
-        identifier = "A Propos"
-        name = "A Propos"
-        url = "/a-propos/"
+        identifier = "About"
+        name = "About Us"
+        url = "/about/"
         weight = 2
 
     [[menu.mainmenu]]
