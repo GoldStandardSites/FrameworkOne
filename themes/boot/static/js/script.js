@@ -1,13 +1,17 @@
-/* Preloader */
+/* Homepage Header Fullheight */
+$(document).ready(function(){
+    $('.header').height($(window).height());})
+
+/* Preloader 
 $(document).ready(function() {
     //Preloader
-    preloaderFadeOutTime = 300;
+    preloaderFadeOutTime = 200;
     function hidePreloader() {
     var preloader = $('.spinner-wrapper');
     preloader.fadeOut(preloaderFadeOutTime);
     }
     hidePreloader();
-    });
+    });*/
 /* Animate on Scroll */
 AOS.init();
 /* Navigation Menu */
@@ -24,10 +28,6 @@ $(document).ready(function(){
         return false; 
     }); 
 });
-/* Homepage Header Fullheight */
-$(document).ready(function(){
-    $('.header').height($(window).height());})
-
 $(document).on("click", '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
