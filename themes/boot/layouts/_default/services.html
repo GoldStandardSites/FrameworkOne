@@ -8,4 +8,38 @@
     </div>
   </div>
 </header>
+<section class="services container pb-8">
+  <h2 class="pb-1 pt-8">{{.Params.service1}}</h2>
+  <div class="row service-row">
+    <div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+      <p>{{.Params.service1_desc | safeHTML }}</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="{{ $.Site.BaseURL }}img/og.png" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+    </div>
+  </div>
+  <div class="divider">
+  </div>
+  <h2 class="pb-1">{{.Params.service2}}</h2>
+  <div class="row service-row">
+    <div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+      <p>{{.Params.service2_desc | safeHTML }}</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="{{ $.Site.BaseURL }}img/og.png" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+    </div>
+  </div>
+  <div class="divider">
+  </div>
+  <h2 class="pb-1">{{.Params.service3}}</h2>
+  <div class="row service-row">
+    <div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+      <p>{{.Params.service3_desc | safeHTML }}</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="{{ $.Site.BaseURL }}img/og.png" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+    </div>
+  </div>
+</section>
+{{- partial "contactform.html" . -}}
 {{ end }}

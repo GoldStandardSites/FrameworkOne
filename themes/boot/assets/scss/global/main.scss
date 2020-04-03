@@ -27,3 +27,10 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.divider {
+    margin: 65px auto;
+    height: 1px;
+    background-color: $brand-color;
+    width: 50%;
+
+}

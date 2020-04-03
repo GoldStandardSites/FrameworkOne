@@ -1,0 +1,42 @@
+
+{{ define "main" }}
+<header class="subheader">
+    <div class="overlay">
+      <div class="container">
+        <div class="sub-content">
+          <h1 class="display-4 uppercase">{{.Title}}</h1>
+        </div>
+      </div>
+    </div>
+</header>
+<div class="container video pt-8">
+    {{.Content}}
+</div>
+<section class="gallery pb-8">
+    <div class="container">
+        <div class="row">
+          <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded py-2">
+          </a>
+          <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded py-2">
+          </a>
+          <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded py-2">
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded py-2">
+          </a>
+          <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded py-2">
+          </a>
+          <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded py-2">
+          </a>
+        </div>
+      </div>
+</section>
+{{- partial "contactform.html" . -}}
+{{ end }}

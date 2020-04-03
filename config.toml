@@ -47,7 +47,13 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
         weight = 3
     
     [[menu.mainmenu]]
+        identifer = "Gallery"
+        name = "Gallery"
+        url = "/gallery/"
+        weight = 4
+
+    [[menu.mainmenu]]
         identifier = "Contact"
         name = "Contact"
         url = "/contact/"
-        weight = 4
+        weight = 5
