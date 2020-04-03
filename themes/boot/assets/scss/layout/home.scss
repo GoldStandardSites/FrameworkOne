@@ -56,7 +56,8 @@
     }
 
     & h1 {
-        color: $brand-color;
+        color: white;
+        font-weight: 700;
     }
 
     & button {
@@ -67,7 +68,7 @@
 /* Homepage About Section */
 .home__about {
     h2{
-        color: $brand-color;
+        color: white;
     }
     .about-img {
         border-radius: 100%;
