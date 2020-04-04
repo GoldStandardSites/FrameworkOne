@@ -51,6 +51,11 @@
 .bg-footer {
     background-color: #333;
 }
+.fill-brand {
+    fill: $brand-color;
+    width: 28px;
+    height: 28px;
+}
 .sub-content {
     position: absolute;
     top: 48%;

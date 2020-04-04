@@ -10486,6 +10486,11 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-footer {
   background-color: #333; }
 
+.fill-brand {
+  fill: #3288db;
+  width: 28px;
+  height: 28px; }
+
 .sub-content {
   position: absolute;
   top: 48%;
