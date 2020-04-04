@@ -10433,12 +10433,6 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
-.copyright {
-  color: #3288db; }
-
-.copyright:hover {
-  color: white; }
-
 .bg-black {
   background-color: #222; }
 
@@ -10452,6 +10446,9 @@ a.text-dark:hover, a.text-dark:focus {
 .hours {
   list-style: none;
   padding-left: 0px; }
+
+.nav-link {
+  color: black; }
 
 .nav-link:hover {
   color: #3288db; }
@@ -10508,6 +10505,12 @@ a.text-dark:hover, a.text-dark:focus {
 h1, h2, h3, h4 {
   font-weight: 700 !important; }
 
+.footer__highlight u {
+  color: white !important; }
+
+.footer__highlight u:hover {
+  color: #3288db !important; }
+
 @media only screen and (max-width: 768px) {
   .credit {
     text-align: center; }
@@ -10523,9 +10526,6 @@ h1, h2, h3, h4 {
 @media (max-width: 768px) {
   .desktopmenu {
     display: none !important; } }
-
-a {
-  color: black; }
 
 /* MENU STYLES */
 .menu-wrap {

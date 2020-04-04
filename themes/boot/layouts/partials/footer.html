@@ -27,9 +27,9 @@
                     {{ $.Site.Params.postalcode }},{{ $.Site.Params.country }}<br>
                     </address>
                     <strong>Phone:</strong>
-                    <a href="tel:{{ $.Site.Params.phone }}" class="brand-color"><h5>{{ $.Site.Params.phone }}</h5></a>
+                    <a class="footer__highlight" href="tel:{{ $.Site.Params.phone }}"><h5><u>{{ $.Site.Params.phone }}</u></h5></a>
                     <strong>Email:</strong>
-                    <a href="mailto:{{ $.Site.Params.email }}" class="brand-color"><h5>{{ $.Site.Params.email }}</h5></a>
+                    <a class="footer__highlight" href="mailto:{{ $.Site.Params.email }}"><h5><u>{{ $.Site.Params.email }}</u></h5></a>
             </div>
         </div>
             <div class="col-lg-4 col-md-4 col-sm 12 pb-1">
@@ -47,7 +47,7 @@
     </section>
     <div class="container">
         <div class="text-white credit">
-            <div><span>Handcrafted with ❤️ by </span><span><a class="copyright" href="#"><u>Gold Standard Sites</u></a>&nbsp</span> <span>- Copyright © {{ dateFormat "2006" now }}</span></div>
+            <div><span>Handcrafted with ❤️ by </span><span><a class="footer__highlight" href="#"><u>Gold Standard Sites</u></a>&nbsp</span> <span>- Copyright © {{ dateFormat "2006" now }}</span></div>
         </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

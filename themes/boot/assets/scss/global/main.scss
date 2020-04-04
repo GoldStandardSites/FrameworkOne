@@ -1,9 +1,3 @@
-.copyright {
-    color: $brand-color;
-}
-.copyright:hover {
-    color: white;
-}
 .bg-black {
     background-color: #222;
 }
@@ -17,6 +11,9 @@
 .hours {
     list-style: none;
     padding-left: 0px;
+}
+.nav-link {
+    color: black;
 }
 .nav-link:hover {
     color: $brand-color;
@@ -69,10 +66,15 @@
     height: 1px;
     background-color: $brand-color;
     width: 50%;
-
 }
 h1,h2,h3,h4 {
     font-weight: 700 !important;
+}
+.footer__highlight u {
+    color: white !important;
+}
+.footer__highlight u:hover {
+    color: $brand-color !important;
 }
 @media only screen and (max-width: 768px)  {
     .credit {
