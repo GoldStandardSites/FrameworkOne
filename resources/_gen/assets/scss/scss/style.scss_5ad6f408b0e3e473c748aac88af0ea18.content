@@ -10491,6 +10491,9 @@ a.text-dark:hover, a.text-dark:focus {
   width: 28px;
   height: 28px; }
 
+.carousel-indicators li {
+  background-color: #3288db; }
+
 .sub-content {
   position: absolute;
   top: 48%;

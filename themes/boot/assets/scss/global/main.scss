@@ -56,6 +56,9 @@
     width: 28px;
     height: 28px;
 }
+.carousel-indicators li {
+    background-color: $brand-color;
+}
 .sub-content {
     position: absolute;
     top: 48%;
