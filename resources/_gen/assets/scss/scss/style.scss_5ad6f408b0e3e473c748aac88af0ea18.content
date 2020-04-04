@@ -10764,6 +10764,18 @@ a {
   text-align: center;
   margin-bottom: 3.5rem; }
 
+.contact__detail {
+  padding: 15px 0;
+  border-top: 1px solid #3288db; }
+
+.map-wrapper {
+  filter: grayscale(100%); }
+
+@media only screen and (max-width: 768px) {
+  .contact__form--info {
+    padding-top: 25px;
+    text-align: left; } }
+
 .service-row {
   display: flex;
   flex-direction: row; }
@@ -10776,5 +10788,30 @@ a {
     flex-direction: column-reverse; }
   .services__images {
     padding-bottom: 45px; } }
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0; }
+
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem; }
+
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1.5rem;
+  content: "\f106";
+  color: #3288db;
+  float: right;
+  margin-top: 0px; }
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107"; }
+
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem; }
 
 /*# sourceMappingURL=style.css.map */

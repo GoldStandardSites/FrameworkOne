@@ -1,0 +1,19 @@
+.contact__form {
+    &--info {
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+}
+.contact__detail {
+    padding: 15px 0;
+    border-top: 1px solid $brand-color;
+}
+.map-wrapper {
+    filter: grayscale(100%);
+}
+@media only screen and (max-width: 768px)  {
+    .contact__form--info {
+        padding-top: 25px;
+        text-align: left;
+    }
+}
