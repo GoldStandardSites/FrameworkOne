@@ -36,11 +36,9 @@
                 <div class="footer__box">
                 <h3 class="uppercase pb-1">Business Hours</h3>
                 <ul class="hours">
-                <li>Mo - We <strong>11:00-20:00</strong></li>
-                <br>
-                <li>Th - Sat <strong>10:00-22:00</strong></li>
-                <br>
-                <li>Su - <strong>CLOSED</strong></li>
+                <li class="pt-1">Mo - We <strong>11:00-20:00</strong></li>
+                <li class="pt-1">Th - Sat <strong>10:00-22:00</strong></li>
+                <li class="pt-1">Su - <strong>CLOSED</strong></li>
                 </li>
                 </ul>
             </div>
@@ -56,7 +54,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="{{ $.Site.BaseURL }}js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" async></script>
-    
     {{ $scripts := resources.Get "js/bootstrap.bundle.min.js" }}
     <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}" async></script>
 </footer>
