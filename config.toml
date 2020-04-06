@@ -21,7 +21,7 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
     country = "Canada" #Enter Country Here
     postalcode = "J0P 1P0" # Enter Postal Code
     phone = "+1-123-456-7890" # Enter Phone Number
-    email = "info@goldstandardsites.ca" # Enter Your Email
+    email = "info@goldstandardsites.com" # Enter Your Email
     facebookurl = "https://www.facebook.com/"
     instagram = "https://instagram.com/"
     logo = "img/logo.png"
@@ -36,7 +36,7 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
     [[menu.mainmenu]]
         identifier = "About"
-        name = "About Us"
+        name = "About"
         url = "/about/"
         weight = 2
 

@@ -1,6 +1,9 @@
 .bg-black {
     background-color: #222;
 }
+.bg-brand {
+    background-color: $brand-color;
+}
 .credit {
     padding-top: 20px;
     margin-top: 30px;
@@ -14,6 +17,8 @@
 }
 .nav-link {
     color: black;
+    font-weight: 500;
+    font-size: 18px;
 }
 .nav-link:hover {
     color: $brand-color;
@@ -23,6 +28,10 @@
 }
 .nav-logo {
     max-width: 120px;
+}
+.navbar-brand {
+    border: 1px solid black;
+    padding: 8px 13px;
 }
 .brand-color {
     color: $brand-color !important;

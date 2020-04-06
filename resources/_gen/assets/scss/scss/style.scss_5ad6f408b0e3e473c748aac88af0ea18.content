@@ -10436,6 +10436,9 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-black {
   background-color: #222; }
 
+.bg-brand {
+  background-color: #3288db; }
+
 .credit {
   padding-top: 20px;
   margin-top: 30px;
@@ -10448,7 +10451,9 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 0px; }
 
 .nav-link {
-  color: black; }
+  color: black;
+  font-weight: 500;
+  font-size: 18px; }
 
 .nav-link:hover {
   color: #3288db; }
@@ -10458,6 +10463,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-logo {
   max-width: 120px; }
+
+.navbar-brand {
+  border: 1px solid black;
+  padding: 8px 13px; }
 
 .brand-color {
   color: #3288db !important; }
@@ -10701,7 +10710,7 @@ h1, h2, h3, h4 {
 /* Responsive Header Section */
 @media only screen and (max-width: 768px) {
   .hero-content h1 {
-    font-size: 3.0rem; }
+    font-size: 2.5rem; }
   .home__services--heading {
     font-size: 2.0rem;
     padding-bottom: 1rem; }
@@ -10723,7 +10732,7 @@ h1, h2, h3, h4 {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 80vh; }
+  height: 800px; }
 
 .hero-content {
   position: absolute;
@@ -10804,20 +10813,25 @@ h1, h2, h3, h4 {
 
 .accordion-section .panel-default .panel-title a {
   display: block;
-  font-style: italic;
   font-size: 1.5rem; }
 
+.collapsed {
+  color: black !important; }
+
+a:hover {
+  color: black;
+  text-decoration: none; }
+
 .accordion-section .panel-default .panel-title a:after {
-  font-family: 'FontAwesome';
   font-style: normal;
   font-size: 1.5rem;
-  content: "\f106";
+  content: "\0025B4";
   color: #3288db;
   float: right;
   margin-top: 0px; }
 
 .accordion-section .panel-default .panel-title a.collapsed:after {
-  content: "\f107"; }
+  content: "\0025BE"; }
 
 .accordion-section .panel-default .panel-body {
   font-size: 1.2rem; }
