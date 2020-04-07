@@ -10521,6 +10521,8 @@ h1, h2, h3, h4 {
   color: #3288db !important; }
 
 @media only screen and (max-width: 768px) {
+  section {
+    padding: 5% !important; }
   .credit {
     text-align: center; }
   .footer__links {
@@ -10792,7 +10794,13 @@ h1, h2, h3, h4 {
 
 @media only screen and (max-width: 768px) {
   .about-h2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .home__about--desc {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+.home__about--desc {
+  padding-right: 25px; }
 
 .contact__form--info {
   text-align: center;
