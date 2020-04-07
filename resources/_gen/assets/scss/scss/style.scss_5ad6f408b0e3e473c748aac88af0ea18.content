@@ -10532,7 +10532,9 @@ h1, h2, h3, h4 {
     background-position: bottom;
     background-size: cover;
     background-attachment: initial;
-    height: 350px; } }
+    height: 350px; }
+  .businessquote {
+    font-size: 40px; } }
 
 @media (min-width: 768px) {
   .menu-wrap {
@@ -10635,8 +10637,7 @@ h1, h2, h3, h4 {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 25px; }
+  justify-content: center; }
 
 .menu-wrap .menu > div {
   background: black;
@@ -10660,7 +10661,6 @@ h1, h2, h3, h4 {
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 2rem;
   padding: 1rem; }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -10801,7 +10801,7 @@ h1, h2, h3, h4 {
 
 @media only screen and (max-width: 768px) {
   .contact__form--info {
-    padding-top: 25px;
+    padding-top: 0px;
     text-align: left; } }
 
 .service-row {
