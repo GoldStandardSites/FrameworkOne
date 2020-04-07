@@ -10805,7 +10805,11 @@ h1, h2, h3, h4 {
     font-size: 40px; }
   .home__about--desc {
     padding-left: 20px;
-    padding-right: 20px; } }
+    padding-right: 20px; }
+  .about-name {
+    text-align: left !important;
+    margin-bottom: 25px;
+    padding-left: 3% !important; } }
 
 .home__about--desc {
   padding-right: 25px; }
