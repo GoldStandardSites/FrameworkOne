@@ -10521,9 +10521,11 @@ h1, h2, h3, h4 {
   color: #3288db !important; }
 
 @media only screen and (max-width: 768px) {
+  .sub-content {
+    padding-left: 3% !important; }
   section {
-    padding-left: 5% !important;
-    padding-right: 5% !important; }
+    padding-left: 3% !important;
+    padding-right: 3% !important; }
   .credit {
     text-align: center; }
   .footer__links {
@@ -10835,7 +10837,7 @@ h1, h2, h3, h4 {
   .service-row {
     flex-direction: column-reverse; }
   .services__images {
-    padding-bottom: 45px; } }
+    margin-bottom: 45px; } }
 
 .accordion-section .panel-default > .panel-heading {
   border: 0;
