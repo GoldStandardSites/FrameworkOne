@@ -51,6 +51,7 @@
     background-image: url(/img/hero.jpg);
     background-position: bottom;
     background-size: cover;
+    background-attachment: fixed;
     height: 350px;
 }
 .bg-footer {
@@ -93,5 +94,12 @@ h1,h2,h3,h4 {
     }
     .footer__box {
         padding: 0 20px 40px 20px;
+    }
+    .subheader {
+        background-image: url(/img/hero.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: initial;
+        height: 350px;
     }
 }
