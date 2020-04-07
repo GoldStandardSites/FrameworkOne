@@ -10522,7 +10522,8 @@ h1, h2, h3, h4 {
 
 @media only screen and (max-width: 768px) {
   section {
-    padding: 5% !important; }
+    padding-left: 5% !important;
+    padding-right: 5% !important; }
   .credit {
     text-align: center; }
   .footer__links {
@@ -10731,15 +10732,20 @@ h1, h2, h3, h4 {
     padding-bottom: 1rem; }
   .home__services--subheading {
     padding-bottom: 1rem !important; }
-  .home__benefits--heading {
-    font-size: 2.0rem;
-    padding-bottom: 1rem; }
-  .home__benefits--subheading {
-    padding-bottom: 3.5rem !important; }
-  .home__benefits-2 .row-1 {
-    margin-bottom: 0px !important; }
-  .home__benefits-2 .row-2 {
-    margin-top: 0px !important; } }
+  .home__benefits {
+    padding-top: 0px;
+    margin-top: 25px; }
+    .home__benefits--heading {
+      font-size: 2.0rem;
+      padding-bottom: 1rem; }
+    .home__benefits--subheading {
+      padding-bottom: 3.5rem !important; }
+  .home__benefits-2 {
+    background-color: transparent !important; }
+    .home__benefits-2 .row-1 {
+      margin-bottom: 0px !important; }
+    .home__benefits-2 .row-2 {
+      margin-top: 0px !important; } }
 
 /* Homepage Header Section */
 .header {
@@ -10829,7 +10835,7 @@ h1, h2, h3, h4 {
   .service-row {
     flex-direction: column-reverse; }
   .services__images {
-    margin-bottom: 45px !important; } }
+    padding-bottom: 45px; } }
 
 .accordion-section .panel-default > .panel-heading {
   border: 0;
