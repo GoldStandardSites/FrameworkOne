@@ -31,29 +31,29 @@ googleAnalytics = "UA-152851764-2" # Your Analytics ID here
     [[menu.mainmenu]]
         identifier = "Home"
         name = "Home"
-        url = "/"
+        url = "{{ $.Site.BaseURL }}"
         weight = 1
 
     [[menu.mainmenu]]
         identifier = "About"
         name = "About"
-        url = "/about/"
+        url = "{{ $.Site.BaseURL }}about/"
         weight = 2
 
     [[menu.mainmenu]]
         identifer = "Services"
         name = "Services"
-        url = "/services/"
+        url = "{{ $.Site.BaseURL }}services/"
         weight = 3
     
     [[menu.mainmenu]]
         identifer = "Gallery"
         name = "Gallery"
-        url = "/gallery/"
+        url = "{{ $.Site.BaseURL }}gallery/"
         weight = 4
 
     [[menu.mainmenu]]
         identifier = "Contact"
         name = "Contact"
-        url = "/contact/"
+        url = "{{ $.Site.BaseURL }}contact/"
         weight = 5
