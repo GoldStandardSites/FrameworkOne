@@ -10829,7 +10829,7 @@ h1, h2, h3, h4 {
   .service-row {
     flex-direction: column-reverse; }
   .services__images {
-    padding-bottom: 45px; } }
+    margin-bottom: 45px !important; } }
 
 .accordion-section .panel-default > .panel-heading {
   border: 0;
