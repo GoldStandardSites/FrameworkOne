@@ -10829,7 +10829,7 @@ a:hover {
   color: white;
   float: right;
   margin-top: 0px;
-  padding: 6px 14px;
+  padding: 3px 14px 6px 14px;
   background-color: #3288db;
   border-radius: 100%; }
 
