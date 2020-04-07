@@ -127,11 +127,12 @@
         justify-content: center;
         transform: scale(0);
         transition: all 0s ease;
+        padding-right: 20px;
       }
       
       .menu-wrap .menu > div > div {
         text-align: center;
-        max-width: 100vw;
+        max-width: 95vw;
         max-height: 100vh;
         opacity: 0;
         transition: opacity 0.2s ease;
