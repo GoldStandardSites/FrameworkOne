@@ -10653,7 +10653,7 @@ h1, h2, h3, h4 {
 
 .menu-wrap .menu > div > div {
   text-align: center;
-  max-width: 95vw;
+  max-width: 100vw;
   max-height: 100vh;
   opacity: 0;
   transition: opacity 0.2s ease; }
