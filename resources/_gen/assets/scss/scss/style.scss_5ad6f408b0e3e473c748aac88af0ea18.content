@@ -10486,7 +10486,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url(/img/hero.jpg);
   background-position: bottom;
   background-size: cover;
-  background-attachment: fixed;
   height: 350px; }
 
 .bg-footer {
@@ -10622,18 +10621,19 @@ h1, h2, h3, h4 {
 .menu-wrap .menu {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 2px;
   width: 100%;
   height: 100%;
   visibility: hidden;
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  font-size: 25px; }
 
 .menu-wrap .menu > div {
   background: black;
-  border-radius: 50%;
+  border-radius: 20%;
   width: 200vw;
   height: 200vw;
   display: flex;
@@ -10645,7 +10645,7 @@ h1, h2, h3, h4 {
 
 .menu-wrap .menu > div > div {
   text-align: center;
-  max-width: 90vw;
+  max-width: 95vw;
   max-height: 100vh;
   opacity: 0;
   transition: opacity 0.2s ease; }
@@ -10653,7 +10653,7 @@ h1, h2, h3, h4 {
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1rem; }
 
 .menu-wrap .menu > div > div > ul > li > a {
