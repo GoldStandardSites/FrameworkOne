@@ -5,7 +5,7 @@ layout: about
 keywords: "about, keywords"
 # About Section
 h2: "Think Positive!"
-name1: "Anita Bellona" 
+name1: "First and Last Name" 
 # Skills Section
 skill1: "Service"
 skill1desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
