@@ -10824,11 +10824,14 @@ a:hover {
 
 .accordion-section .panel-default .panel-title a:after {
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 25px;
   content: "\0025B4";
-  color: #3288db;
+  color: white;
   float: right;
-  margin-top: 0px; }
+  margin-top: 0px;
+  padding: 6px 14px;
+  background-color: #3288db;
+  border-radius: 100%; }
 
 .accordion-section .panel-default .panel-title a.collapsed:after {
   content: "\0025BE"; }
