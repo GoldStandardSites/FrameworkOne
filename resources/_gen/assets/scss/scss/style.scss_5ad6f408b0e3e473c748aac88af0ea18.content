@@ -10705,6 +10705,11 @@ h1, h2, h3, h4 {
     right: 10px;
     bottom: 40px; } }
 
+@media only screen and (max-width: 768px) {
+  .nav-link {
+    font-size: 32px !important;
+    font-weight: 600; } }
+
 /*.spinner-wrapper {
     position: fixed;
     top: 0;
