@@ -62,8 +62,8 @@
           </svg>
         </div>
           <div class="icon__box--text pl-3">
-          <h3>Benefit #1</h3>
-            <p>This is test text that I'm looking to see how it works. What about that?</p>
+          <h3>{{.Params.benefit1}}</h3>
+            <p>{{.Params.benefit1__desc}}</p>
           </div>
     </div>
   </div>
@@ -75,8 +75,8 @@
       </svg>
     </div>
       <div class="icon__box--text pl-3">
-      <h3>Benefit #2</h3>
-        <p>This is test text that I'm looking to see how it works. What about that?</p>
+      <h3>{{.Params.benefit2}}</h3>
+        <p>{{.Params.benefit2__desc}}</p>
       </div>
 </div>
 </div>
@@ -88,8 +88,8 @@
     </svg>
   </div>
     <div class="icon__box--text pl-3">
-    <h3>Benefit #3</h3>
-      <p>This is test text that I'm looking to see how it works. What about that?</p>
+    <h3>{{.Params.benefit3}}</h3>
+      <p>{{.Params.benefit3__desc}}</p>
     </div>
 </div>
 </div>
@@ -103,8 +103,8 @@
           </svg>
         </div>
           <div class="icon__box--text pl-3">
-          <h3>Benefit #4</h3>
-            <p>This is test text that I'm looking to see how it works. What about that?</p>
+          <h3>{{.Params.benefit4}}</h3>
+            <p>{{.Params.benefit4__desc}}</p>
           </div>
     </div>
   </div>
@@ -116,8 +116,8 @@
       </svg>
     </div>
       <div class="icon__box--text pl-3">
-      <h3>Benefit #5</h3>
-        <p>This is test text that I'm looking to see how it works. What about that?</p>
+      <h3>{{.Params.benefit5}}</h3>
+        <p>{{.Params.benefit5__desc}}</p>
       </div>
 </div>
 </div>
@@ -129,8 +129,8 @@
     </svg>
   </div>
     <div class="icon__box--text pl-3">
-    <h3>Benefit #6</h3>
-      <p>This is test text that I'm looking to see how it works. What about that?</p>
+    <h3>{{.Params.benefit6}}</h3>
+      <p>{{.Params.benefit6__desc}}</p>
     </div>
 </div>
 </div>
@@ -147,19 +147,19 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active text-center py-8">
-            <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img m-auto mb-2">
-            <h3 class="py-2">Lorem Ipsum</h3>
-            <p class="text-center w-75 m-auto">Convallis posuere morbi leo urna molestie at elementum. Turpis cursus in hac habitasse platea dictumst quisque. Nulla pellentesque dignissim enim sit amet venenatis. Euismod nisi porta lorem mollis aliquam ut porttitor. Consectetur a erat nam at lectus.</p>
+            <img src="{{ $.Site.BaseURL }}img/testimonial1.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img m-auto mb-2">
+            <h3 class="py-2">{{.Params.testimonial1}}</h3>
+            <p class="text-center w-75 m-auto">{{.Params.testimonial1__desc}}</p>
           </div>
           <div class="carousel-item text-center py-8">
-            <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img m-auto">
-            <h3 class="py-2">Lorem Ipsum</h3>
-            <p class="text-center w-75 m-auto">Convallis posuere morbi leo urna molestie at elementum. Turpis cursus in hac habitasse platea dictumst quisque. Nulla pellentesque dignissim enim sit amet venenatis. Euismod nisi porta lorem mollis aliquam ut porttitor. Consectetur a erat nam at lectus.</p>
+            <img src="{{ $.Site.BaseURL }}img/testimonial2.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img m-auto">
+            <h3 class="py-2">{{.Params.testimonial2}}</h3>
+            <p class="text-center w-75 m-auto">{{.Params.testimonial2__desc}}</p>
           </div>
           <div class="carousel-item text-center py-8">
-            <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img m-auto">
-            <h3 class="py-2">Lorem Ipsum</h3>
-            <p class="text-center w-75 m-auto">Convallis posuere morbi leo urna molestie at elementum. Turpis cursus in hac habitasse platea dictumst quisque. Nulla pellentesque dignissim enim sit amet venenatis. Euismod nisi porta lorem mollis aliquam ut porttitor. Consectetur a erat nam at lectus.</p>
+            <img src="{{ $.Site.BaseURL }}img/testimonial3.jpg" alt="Image of {{ $.Site.Title }}" class="img-fluid img-thumbnail about-img m-auto">
+            <h3 class="py-2">{{.Params.testimonial3}}</h3>
+            <p class="text-center w-75 m-auto">{{.Params.testimonial3__desc}}</p>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

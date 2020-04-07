@@ -41,5 +41,55 @@
     </div>
   </div>
 </section>
-{{- partial "faq.html" . -}}
+<section class="accordion-section clearfix mt-3 mb-8" aria-label="Question Accordions">
+  <div class="container">
+	  <h2 class="pb-5">Frequently Asked Questions </h2>
+	  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3 shadow bg-white text-dark" role="tab" id="heading0">
+			<h5 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+				{{.Params.question1}}
+			  </a>
+			</h5>
+		  </div>
+		  <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+			<div class="panel-body px-3 mb-4">
+			  <p>{{.Params.answer1}}</p>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3 shadow bg-white text-dark" role="tab" id="heading1">
+			<h5 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse2">
+          {{.Params.question2}}
+			  </a>
+			</h5>
+		  </div>
+		  <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+			<div class="panel-body px-3 pb-4">
+			  <p>{{.Params.answer2}}</p>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 mb-3 shadow bg-white text-dark" role="tab" id="heading2">
+			<h5 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+          {{.Params.question3}}
+			  </a>
+			</h5>
+		  </div>
+		  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+			<div class="panel-body px-3 pb-4">
+			  <p>{{.Params.answer3}}</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+  </div>
+</section>
 {{ end }}
